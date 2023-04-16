@@ -1,12 +1,12 @@
 // Write your code here!
 
 
-const mainNode = document.querySelector("#main");
-mainNode.remove();
-
-const newHeader = document.createElement("h1");
-newHeader.id = "victory";
-newHeader.innerHTML = "John Doe is the champion";
+const newHeader = document.createElement('h1');
+newHeader.id = 'victory';
+newHeader.innerHTML = 'YOUR-NAME is the champion'
 
 
 document.body.appendChild(newHeader);
+
+const main = document.querySelector('main');
+main.remove();
